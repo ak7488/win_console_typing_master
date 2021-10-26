@@ -1,0 +1,19 @@
+{
+    "name": "console_typing_master",
+    "version": "1.0.0",
+    "description": "",
+    "main": "typing.js",
+    "scripts": {
+        "start": "node typing.js",
+        "build": "pkg typing.js --output ${YOUR_IDEAL_PATH} --target node14-win-x64"
+    },
+    "keywords": [],
+    "author": "anubhav anand",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^4.1.2"
+    },
+    "devDependencies": {
+        "pkg": "^5.4.0"
+    }
+}
